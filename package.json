@@ -1,0 +1,23 @@
+{
+  "name": "node-study",
+  "version": "1.0.0",
+  "description": "node study",
+  "main": "index.js",
+  "author": "seanhit",
+  "dependencies": {
+    "loadsh": "0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanHit/node.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanHit/node/issues"
+  },
+  "homepage": "https://github.com/SeanHit/node#readme"
+}
