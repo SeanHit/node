@@ -57,10 +57,14 @@
  */
 const http = require('http')
 
-console.log('http.METHODS', http.METHODS)
-console.log('http.STATUS_CODES', http.STATUS_CODES)
-console.log('http.globalAgent', http.globalAgent)
+const port = 3000
 
 const server = http.createServer((req, res) => {
-    //使用此回调处理每个单独的请求。
+    res.statusCode = 200
+    res.setHeader('Content-Type', 'text/plain')
+    res.end('你好世界\n')
+})
+
+server.listen(port, () => {
+    console.log(`服务器运行在 http://${hostname}:${port}/`)
 })
